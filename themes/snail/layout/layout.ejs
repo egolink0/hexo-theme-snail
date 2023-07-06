@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title></title>
-    <meta charset="utf-8">
-    <%- css('css/reset.css') %>
-    <%- css('css/layout.css') %>
-</head>
-<body>
+    <meta charset="utf-8" />
+    <%- css('css/reset.css') %> <%- css('css/layout.css') %>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"
+      integrity="sha512-CryKbMe7sjSCDPl18jtJI5DR5jtkUWxPXWaLCst6QjH8wxDexfRJic2WRmRXmstr2Y8SxDDWuBO6CQC6IE4KTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <div class="layout">
+      <!-- {
+        posts: _Query { data: [ [_Document], [_Document] ], length: 2 },
+        pages: _Query { data: [], length: 0 },
+        categories: _Query { data: [], length: 0 },
+        tags: _Query { data: [], length: 0 },
+        data: {}
+      } -->
+      <% console.log(site) %>
+      <header>
+        <nav>
+          <!-- categories -->
+          <% if (site.categories.length) { %>
+          <a>categories</a>
+          <% }else{} %>
 
-    这里是 layout.ejs
+          <!-- tags -->
+          <% if (site.tags.length) { %>
+          <a>tags</a>
+          <% }else{} %>
+        </nav>
+      </header>
+      <%- body %>
+    </div>
 
-    <%- include("index.ejs") %>
-
-    <%- include("post.ejs") %>
-
-    <% site.posts.forEach(function(post){ %>
-
-        <%- post.path %>
-        <br />
-        <%- post.slug %>
-        <br />
-        <%- post._id %>
-        <br />
-        <%- post.title %>
-        <br />
-        <%- post.date %>
-        <br />
-
-        <a href="/<%- post.path %>"><%- post.title %></a>
-
-    <% }); %>
-  
-  <%- body %>
-
-</body>
+    <%- js('js/layout.js') %>
+  </body>
 </html>

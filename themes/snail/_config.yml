@@ -1,0 +1,7 @@
+navs:
+    -
+        name: company1
+        price: 200W
+    -
+        name: company2
+        price: 500W

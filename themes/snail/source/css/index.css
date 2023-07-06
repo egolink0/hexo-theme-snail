@@ -1,0 +1,25 @@
+.index{
+    width: 740px;
+    margin:20px auto;
+}
+
+.post{
+    background-color: antiquewhite;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.post p{
+    font-size: 12px;
+    margin-top: 8px; 
+}
+
+.post .date{
+    color:#999;
+}
+
+.post a{
+    text-decoration: none;
+}
