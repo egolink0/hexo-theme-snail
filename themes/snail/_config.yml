@@ -1,3 +1,5 @@
+# theme 的配置，页面上取字段 theme 
+
 navs:
     -
         name: company1

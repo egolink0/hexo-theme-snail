@@ -2,3 +2,19 @@
     width: 740px;
     margin:20px auto;
 }
+
+
+.layout header {
+    display:flex ;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.author{
+    font-size: 26px;
+    color: #424242;
+}
+
+nav a{
+    margin-left: 12px;
+}
