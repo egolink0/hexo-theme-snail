@@ -147,15 +147,13 @@ a {
 	text-decoration: none;
 }
 
-a {
-	color: #2568ba;
-	text-decoration: none;
-}
 
-a:visited {
-	color: inherit;
-}
 
-a:hover {
-	color: green;
+/* https://colorleap.app/time/1910 */
+h6{
+	color: #D17028;
+	color: #EBD7C3;
+	color: #E7B67B;
+	color: #809181;
+	color: #313C3E;
 }

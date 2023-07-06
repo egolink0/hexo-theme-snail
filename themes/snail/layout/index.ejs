@@ -18,20 +18,18 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
       site.posts.reverse().forEach(function(post,index){ %>
 
     <div class="post" onclick="goPostPage(<% post.path %>)">
+      <% console.log(post) %>
       <a href="/<%- post.path %>">
         <h2><%- post.title %></h2>
-        <p>
+        <p class="sub">
           <span class="date"><%- moment(post.date).format("YYYY/MM/DD") %></span>
+          <span class="author"><%- config.author %></span>
+        </p>
+        <p>
+          <% post.content %>
         </p>
       </a>
       <br />
-      <% console.log('post',post) %>
-
-      <% if(index===0){ %>
-      <div><%- post.content %></div>
-      <% }else { %>
-      <div><% post.brief %></div>
-      <% } %>
     </div>
 
     <% }); %>

@@ -7,3 +7,23 @@ navs:
     -
         name: company2
         price: 500W
+
+
+colors:
+    - 
+        name: orange
+        value: '#D17028'
+    - 
+        name: orange2
+        value: '#E7B67B'
+    - 
+        name: bg
+        value: '#EBD7C3'
+    - 
+        name: green
+        value: '#809181'
+    - 
+        name: blank
+        value: '#313C3E'
+
+        
