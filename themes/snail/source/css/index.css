@@ -20,17 +20,19 @@
     margin-right: 12px;
 }
 
+.post .date{
+    color:#D17028;
+    opacity: 0.4;
+}
+
 .post a{
     text-decoration: none;
 }
 
-.post .content{
-    font-size: 16px;
+.post .excerpt{
+    font-size: 14px;
     line-height: 1.5;
-}
-
-.post .content p{
-    margin-bottom: 20px;
+    color:#313C3E
 }
 
 h2{

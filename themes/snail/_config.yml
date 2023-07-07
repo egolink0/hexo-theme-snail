@@ -1,27 +1,18 @@
 # theme 的配置，页面上取字段 theme 
 
-navs:
-    -
-        name: company1
-        price: 200W
-    -
-        name: company2
-        price: 500W
-
-
 colors:
-    - 
-        name: orange
-        value: '#D17028'
-    - 
-        name: orange2
-        value: '#E7B67B'
     - 
         name: bg
         value: '#EBD7C3'
     - 
+        name: orange
+        value: '#D17028'
+    - 
         name: green
         value: '#809181'
+    - 
+        name: orange2
+        value: '#E7B67B'
     - 
         name: blank
         value: '#313C3E'

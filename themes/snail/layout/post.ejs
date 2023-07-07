@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title></title>
-    <meta charset="utf-8" />
-  </head>
-  <body>
-    <div class="post">
-      <h1><% page.title %></h1>
-      <p><% page.date %> <% page.author %></p>
-      <article><%- page.content %></article>
-    </div>
-  </body>
+
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <%- css('css/reset.css') %> <%- css('css/post.css') %>
+</head>
+
+<body>
+  <div class="post-page">
+    <h1><% page.title %></h1>
+    <p><% page.date %> <% page.author %></p>
+    <article><%- page.content %></article>
+  </div>
+</body>
+
 </html>

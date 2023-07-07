@@ -15,12 +15,16 @@
     color: #313C3E;
 }
 
+.layout-author:hover{
+    opacity: 0.6;
+}
+
 nav a{
     margin-left: 12px;
     color: #313C3E;
 }
 
-nav a::hover{
+nav a:hover{
     opacity: 0.6;
 }
 
