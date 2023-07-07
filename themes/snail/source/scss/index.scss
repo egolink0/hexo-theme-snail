@@ -1,0 +1,50 @@
+.index {
+    margin: 72px auto 20px;
+
+    .post {
+        padding-top: 24px;
+        border-radius: 8px;
+        cursor: pointer;
+
+        .sub {
+            font-size: 12px;
+            margin-top: 8px;
+            display: flex;
+        }
+
+        .date,
+        .author {
+            color: #809181;
+            margin-right: 12px;
+        }
+
+        .date {
+            color: #d17028;
+            opacity: 0.4;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .excerpt {
+            font-size: 14px;
+            line-height: 1.5;
+            color: #313c3e;
+        }
+
+        h2 {
+            color: #313c3eee;
+            font-size: 24px;
+        }
+    }
+
+    /* https://colorleap.app/time/1910 */
+    h6 {
+        color: #d17028;
+        color: #ebd7c3;
+        color: #e7b67b;
+        color: #809181;
+        color: #313c3e;
+    }
+}

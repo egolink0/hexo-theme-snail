@@ -1,51 +1,42 @@
-.index{
-    width: 740px;
-    margin:20px auto;
+.index {
+  margin: 72px auto 20px;
+  /* https://colorleap.app/time/1910 */
 }
-
-.post{
-    padding-top: 24px;
-    border-radius: 8px;
-    cursor: pointer;
+.index .post {
+  padding-top: 24px;
+  border-radius: 8px;
+  cursor: pointer;
 }
-
-.post .sub{
-    font-size: 12px;
-    margin-top: 8px; 
-    display: flex;
+.index .post .sub {
+  font-size: 12px;
+  margin-top: 8px;
+  display: flex;
 }
-
-.post .date,.post .author{
-    color:#809181;
-    margin-right: 12px;
+.index .post .date,
+.index .post .author {
+  color: #809181;
+  margin-right: 12px;
 }
-
-.post .date{
-    color:#D17028;
-    opacity: 0.4;
+.index .post .date {
+  color: #d17028;
+  opacity: 0.4;
 }
-
-.post a{
-    text-decoration: none;
+.index .post a {
+  text-decoration: none;
 }
-
-.post .excerpt{
-    font-size: 14px;
-    line-height: 1.5;
-    color:#313C3E
+.index .post .excerpt {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #313c3e;
 }
-
-h2{
-    color:#D17028;
-    font-size: 24px;
+.index .post h2 {
+  color: rgba(49, 60, 62, 0.9333333333);
+  font-size: 24px;
 }
-
-/* https://colorleap.app/time/1910 */
-h6{
-	color: #D17028;
-	color: #EBD7C3;
-	color: #E7B67B;
-	color: #809181;
-	color: #313C3E;
+.index h6 {
+  color: #d17028;
+  color: #ebd7c3;
+  color: #e7b67b;
+  color: #809181;
+  color: #313c3e;
 }
-

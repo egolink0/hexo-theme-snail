@@ -2,6 +2,7 @@
    v5.0.1 | 20191019
    License: none (public domain)
 */
+
 html,
 body,
 div,
@@ -85,12 +86,12 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -106,51 +107,53 @@ main,
 menu,
 nav,
 section {
-  display: block;
+	display: block;
 }
 
 /* HTML5 hidden-attribute fix for newer browsers */
 *[hidden] {
-  display: none;
+	display: none;
 }
 
 body {
-  line-height: 1;
+	line-height: 1;
 }
 
 menu,
 ol,
 ul {
-  list-style: none;
+	list-style: none;
 }
 
 blockquote,
 q {
-  quotes: none;
+	quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
-  content: none;
+	content: '';
+	content: none;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
+
+
 /* https://colorleap.app/time/1910 */
-h6 {
-  color: #D17028;
-  color: #EBD7C3;
-  color: #E7B67B;
-  color: #809181;
-  color: #313C3E;
+h6{
+	color: #D17028;
+	color: #EBD7C3;
+	color: #E7B67B;
+	color: #809181;
+	color: #313C3E;
 }

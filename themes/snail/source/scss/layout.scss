@@ -1,0 +1,48 @@
+.layout {
+    width: 842px;
+    margin: 20px auto;
+}
+
+.layout header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.layout-author {
+    font-size: 32px;
+    color: #313C3E;
+}
+
+.layout-author:hover {
+    opacity: 0.6;
+}
+
+nav a {
+    margin-left: 12px;
+    color: #313C3E;
+}
+
+nav a:hover {
+    opacity: 0.6;
+}
+
+/* https://colorleap.app/time/1910 */
+h6 {
+    color: #D17028;
+    color: #EBD7C3;
+    color: #E7B67B;
+    color: #809181;
+    color: #313C3E;
+}
+
+.layout-color-line {
+    display: flex;
+    margin-bottom: 75px;
+}
+
+.layout-color-line span {
+    height: 4px;
+    width: 20%;
+    display: inline-block;
+}

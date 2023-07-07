@@ -8,3 +8,8 @@ custom hexo theme
 - 创建新页面
 `hexo new page about`  
 页面直接导航到 about `href='/about'`  
+
+
+## todo
+- [ ] dev 自动刷新
+- [ ] 代码展示插件
